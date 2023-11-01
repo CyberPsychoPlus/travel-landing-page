@@ -41,7 +41,7 @@ body {
     .header__link {
       font-size: 18px;
       line-height: 24px;
-      color: white;
+      color: #fff;
     }
   }
 }
@@ -50,4 +50,61 @@ body {
   height: 100vh;
   background: url(/img/intro-bg.jpg) no-repeat center;
   background-size: cover;
+  padding-top: 263px;
+  &__title {
+    max-width: 619px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+  }
+  &__subtitle {
+    margin-bottom: 59px;
+    max-width: 546px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+  }
+}
+
+.search-form__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-form__field {
+  width: 297px;
+  background: transparent url(/img/circle-icon.svg) no-repeat left 6px;
+  background-size: 20px;
+  border-bottom: 2px solid #bfc0c5;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 18px;
+  color: #fff;
+  &::placeholder {
+    opacity: 1;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff;
+  }
+}
+
+.search-form__submit {
+  padding: 15px 39px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  background: #1b7dff;
+  &:hover,
+  &:focus,
+  &:active {
+    background: #0f61cb;
+  }
 }
