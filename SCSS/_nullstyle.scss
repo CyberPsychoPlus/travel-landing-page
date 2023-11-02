@@ -34,7 +34,7 @@ body {
   width: 100%;
   font-style: 100%;
   line-height: 1;
-  font-style: 14px;
+  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -74,6 +74,8 @@ ul li {
 
 img {
   vertical-align: top;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
