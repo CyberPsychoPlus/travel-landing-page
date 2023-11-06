@@ -128,6 +128,7 @@ body {
     left: 0;
     transform: translateY(-100%);
     background-color: #fff;
+    color: #102746;
   }
 
   &__cards {
@@ -186,6 +187,7 @@ body {
   line-height: 42px;
   padding-bottom: 10px;
   position: relative;
+  color: #102746;
   &::after {
     content: "";
     display: block;
@@ -286,4 +288,53 @@ body {
     height: 100%;
     z-index: 4;
   }
+}
+
+.tours {
+  margin-bottom: 139px;
+  color: #102746;
+  &__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+  }
+}
+.tour {
+  &__thumb {
+  }
+
+  &__info {
+    padding-left: 47px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+  }
+
+  &__desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+  }
+
+  &__more {
+    display: inline-block;
+    padding-right: 59px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006dfe;
+    background: url(/img/arrow-icon.svg) no-repeat 95% center;
+    transition: 0.2s all;
+    &:hover,
+    &:focus {
+      background: url(/img/arrow-icon.svg) no-repeat right center;
+    }
+  }
+}
+.tour-pic {
 }
