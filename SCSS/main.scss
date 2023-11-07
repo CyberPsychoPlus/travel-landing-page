@@ -333,3 +333,78 @@ body {
     }
   }
 }
+
+.top {
+  margin-bottom: 86px;
+  &__title {
+    @extend %tpl__title;
+    margin-bottom: 54px;
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+  }
+  &__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+  }
+  &__card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+  }
+  &__card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0 auto 0 0;
+  }
+  &__card-likes {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding-right: 20px;
+    background: url(/img/heart-icon.svg) no-repeat right;
+    margin-right: 14px;
+  }
+  &__card-comments {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding-right: 23px;
+    background: url(/img/comment-icon.svg) no-repeat right;
+  }
+  &__card-desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+  }
+  &__card-more {
+    width: 118px;
+    padding: 12px 19px;
+    background: #006dfe;
+    color: #fff;
+    font-size: 16px;
+    margin: auto 0 0 0;
+    &:hover,
+    &:focus,
+    &:active {
+      background: #0f61cb;
+    }
+  }
+}
