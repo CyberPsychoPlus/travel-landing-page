@@ -18,14 +18,14 @@ body {
   }
   &__wrapper {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 56px;
   }
   &__list {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
   }
   &__item {
     margin-right: 82px;
@@ -47,6 +47,33 @@ body {
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__burger {
+  display: none;
+  width: 40px;
+  height: 28px;
+  padding: 5px;
+  position: relative;
+}
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  &_first {
+    top: 0;
+  }
+  &_second {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &_third {
+    bottom: 0;
+  }
 }
 
 .intro {
@@ -209,6 +236,7 @@ body {
 .wrapper-full {
   max-width: 1262px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .places {
@@ -467,3 +495,61 @@ body {
     }
   }
 }
+
+//Media start
+@media screen and (max-width: 767px) {
+  .header__burger {
+    display: block;
+  }
+  .header__nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 10;
+    padding: 75px;
+    transform: translateX(100%);
+    transition: 0.3s all linear;
+    &_active {
+      transform: translateX(0);
+    }
+  }
+  .header__item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .header__link {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .header__nav-close {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+    &-line {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      &:first-child {
+        transform: translateY(-50%) rotate(45deg);
+      }
+      &:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+      }
+    }
+  }
+}
+//Media end
