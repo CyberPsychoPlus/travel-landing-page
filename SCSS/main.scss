@@ -1,8 +1,8 @@
-@import "_nullstyle";
-@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+@import '_nullstyle';
+@import url('https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap');
 
 body {
-  font-family: "Lato";
+  font-family: 'Lato';
 }
 
 .header {
@@ -222,7 +222,7 @@ body {
   position: relative;
   color: #102746;
   &::after {
-    content: "";
+    content: '';
     display: block;
     width: 253px;
     height: 3px;
@@ -271,7 +271,7 @@ body {
     position: relative;
     overflow: hidden;
     &::after {
-      content: "";
+      content: '';
       display: block;
       width: 100%;
       height: 100%;
