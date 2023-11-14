@@ -11,3 +11,7 @@
 ## Figma Layout
 
 https://www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?node-id=0%3A1&mode=dev
+
+## Landing Page
+
+Link to the project for viewing - https://cyberpsychoplus.github.io/travel-landing-page/
