@@ -78,7 +78,7 @@ body {
 
 .intro {
   height: 100vh;
-  background: url(/img/intro-bg-min.jpg) no-repeat center;
+  background: url(../img/intro-bg-min.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
   padding-bottom: 223px;
@@ -107,7 +107,7 @@ body {
   }
   &__field {
     width: 297px;
-    background: transparent url(/img/svg/circle-icon.svg) no-repeat left 6px;
+    background: transparent url(../img/svg/circle-icon.svg) no-repeat left 6px;
     background-size: 20px;
     border-bottom: 2px solid #bfc0c5;
     margin-right: 60px;
@@ -205,11 +205,11 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #006dfe;
-    background: url(/img/svg/arrow-icon.svg) no-repeat 95% center;
+    background: url(../img/svg/arrow-icon.svg) no-repeat 95% center;
     transition: 0.2s all;
     &:hover,
     &:focus {
-      background: url(/img/svg/arrow-icon.svg) no-repeat right center;
+      background: url(../img/svg/arrow-icon.svg) no-repeat right center;
     }
   }
 }
@@ -256,7 +256,7 @@ body {
     font-size: 16px;
     color: #006dfe;
     padding-right: 59px;
-    background: url(/img/svg/arrow-icon.svg) no-repeat right center;
+    background: url(../img/svg/arrow-icon.svg) no-repeat right center;
     &:hover,
     &:focus {
       opacity: 0.65;
@@ -359,11 +359,11 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #006dfe;
-    background: url(/img/svg/arrow-icon.svg) no-repeat 95% center;
+    background: url(../img/svg/arrow-icon.svg) no-repeat 95% center;
     transition: 0.2s all;
     &:hover,
     &:focus {
-      background: url(/img/svg/arrow-icon.svg) no-repeat right center;
+      background: url(../img/svg/arrow-icon.svg) no-repeat right center;
     }
   }
 }
@@ -413,7 +413,7 @@ body {
     line-height: 24px;
     color: #fff;
     padding-right: 20px;
-    background: url(/img/svg/heart-icon.svg) no-repeat right;
+    background: url(../img/svg/heart-icon.svg) no-repeat right;
     margin-right: 14px;
   }
   &__card-comments {
@@ -422,7 +422,7 @@ body {
     line-height: 24px;
     color: #fff;
     padding-right: 23px;
-    background: url(/img/svg/comment-icon.svg) no-repeat right;
+    background: url(../img/svg/comment-icon.svg) no-repeat right;
   }
   &__card-desc {
     font-size: 16px;
@@ -594,7 +594,7 @@ body {
     width: 100%;
     margin-right: 0;
     padding-bottom: 12px;
-    background: transparent url(/img/svg/circle-icon.svg) no-repeat left 2px;
+    background: transparent url(../img/svg/circle-icon.svg) no-repeat left 2px;
     ::placeholder {
       font-size: 16px;
     }
