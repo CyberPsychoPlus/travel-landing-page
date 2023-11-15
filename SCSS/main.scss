@@ -132,10 +132,12 @@ body {
     font-size: 24px;
     color: #fff;
     background: #1b7dff;
+    transition: 0.2s all linear;
     &:hover,
     &:focus,
     &:active {
       background: #0f61cb;
+      transition: 0.2s all linear;
     }
   }
 }

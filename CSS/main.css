@@ -263,9 +263,13 @@ body {
   font-size: 24px;
   color: #fff;
   background: #1b7dff;
+  -webkit-transition: 0.2s all linear;
+  transition: 0.2s all linear;
 }
 .search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
   background: #0f61cb;
+  -webkit-transition: 0.2s all linear;
+  transition: 0.2s all linear;
 }
 
 .benefits {
